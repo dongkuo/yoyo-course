@@ -161,6 +161,7 @@
 - `document.querySelector` API 可以根据传入的 css 选择器选择元素。
 - `element.style.transform` API 可为指定元素定义移动位置。translateX(n) ，n 若大于0，是水平向右移动 n 个像素；n 若小于0，是水平向左移动 n 个像素；
 - `element.addEventListener` API 可为指定元素添加事件监听器。
+- `element.clientWidth` API 可获得指定元素的宽度。
 - `scrollTo` 函数实现的效果是，将 `scrollWrapper` 移动到指定的位置（0是不移动，n(n>0) 是向左移动n像素的位置）。
 - 点击向左移动时，需要将 `scrollWrapper` 移动到的位置是：当前位置减去移动步长；点击向右移动时，需要将 `scrollWrapper` 移动到的位置是：当前位置加上移动步长；
 - 移动步长 = 卡片的宽度 + 间距。
